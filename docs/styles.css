@@ -1,0 +1,217 @@
+@font-face {
+	font-family: 'DropFon';
+	src: url('fonts/DropFon-Regular.eot');
+	/* IE9 Compat Modes */
+	src: url('fonts/DropFon-Regular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/DropFon-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('fonts/DropFon-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+	url('fonts/DropFon-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	/* url('webfont.svg#svgFontName') format('svg'); */
+	/* Legacy iOS */
+}
+@font-face{
+	font-family: "DropFon";
+	src: url('fonts/DropFon-Regular.ttf'),url('fonts/DropFon-Regular.eot');
+	/* IE */
+}
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'DropFon', DropolusFont;
+	src:url('fonts/DropFon-Regular.eot');
+	src:url('fonts/DropFon-Regular.eot#iefix') format('embedded-opentype'),url('fonts/DropFon-Regular.ttf') format('truetype'),
+}
+/* Header */
+/* IN USE */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: red;
+	overflow: hidden;
+	/*background-size: cover;
+	background-position: center center;
+	*/
+	z-index: 1;
+}
+audio, canvas, video {
+	display: inline-block;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+}
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	background:transparent;
+	font-family:"DropFon";
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #515151;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+}
+
+.main-subtitle {
+	/* position: absolute; */
+	/* margin: 0; */
+	/* padding: 0; */
+	/* text-align: center; */
+	/* top: 50%; */
+	/* left: 50%; */
+	-webkit-transform: translate3d(-50%,0%,0);
+	transform: translate3d(-50%,0%,0);
+	background:transparent;
+	font-family: 'Nunito', sans-serif;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #515151;
+	text-align: center;
+	top: 57%;
+	left: 50%;
+}
+
+.hidden {
+	
+	-webkit-transform: translate3d(-50%,200%,0);
+	transform: translate3d(-50%,200%,0);
+	background:transparent;
+	font-family: 'Nunito', sans-serif;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: transparent;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+}
+
+.demo-1 .large-header {
+	background: #e8e8e8;
+}
+#pageContainer {
+	/*css for the whole page*/
+	margin: auto auto;
+	/*center the whole page*/
+	width: 600px;
+	height: 600px;
+}
+#logoImage {
+	/*css for the logo image*/
+	width: 600px;
+	height: 600px;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+body {
+	margin: 0;
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'DropFon', DropolusFont;
+}
+a, button {
+	outline: none;
+}
+a {
+	color: #566473;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #34495e;
+}
+section {
+	padding: 1em;
+	text-align: center;
+}
+p.ref {
+	text-align: center;
+	padding: 2em 1em;
+}
+.related {
+	padding: 10em 0;
+}
+.related p {
+	font-size: 1.5em;
+}
+.related > a {
+	display: inline-block;
+	text-align: center;
+	margin: 20px 10px;
+	padding: 25px;
+	vertical-align: middle;
+}
+.related a img {
+	max-width: 100%;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.related a:hover img,.related a:active img {
+	opacity: 1;
+}
+.related a h3 {
+	margin: 0;
+	min-height: 63px;
+	padding: 0.5em 0 0.3em;
+	max-width: 300px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1em;
+}
+@media screen and (min-width: 800px) {
+	body #cdawrap {
+		width: 180px;
+		right: 25px;
+		top: 100%;
+		position: absolute;
+		margin-top: 25px;
+	}
+}
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+		font-size: 2.5em;
+	}
+}
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+.demo-1 .main-title {
+	font-size: 4.2em;
+}
+.main-title .thin {
+	font-weight: 200;
+}
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title,.demo-3 .main-title,.demo-4 .main-title {
+		font-size: 3em;
+	}
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
